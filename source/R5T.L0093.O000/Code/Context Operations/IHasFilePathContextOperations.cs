@@ -22,7 +22,7 @@ namespace R5T.L0093.O000
             return context =>
             {
                 Instances.FileSystemOperator.Verify_File_DoesNotExist(
-                context.FilePath);
+                    context.FilePath);
 
                 return Task.CompletedTask;
             };
