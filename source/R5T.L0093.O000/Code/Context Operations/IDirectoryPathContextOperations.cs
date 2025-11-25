@@ -13,7 +13,7 @@ namespace R5T.L0093.O000
     [ContextOperationsMarker]
     public partial interface IDirectoryPathContextOperations : IContextOperationsMarker
     {
-        /// <inheritdoc cref="L0066.IFileSystemOperator.Create_Directory_Idempotent(string)"/>
+        /// <inheritdoc cref="F10Y.L0000.IFileSystemOperator.Create_Directory_Idempotent(string)"/>
         public Func<TContext, Task> Create_Directory_Idempotent<TContext>(
             IsSet<IHasDirectoryPath> directoryPathSet,
             out IChecked<IDirectoryExists> @checked)
